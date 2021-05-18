@@ -2,6 +2,8 @@ Git is a version control system
 Git second changed
 Git third changed
 creating a new branch is quick
+<<<<<<< HEAD
+master: modify file to create conflict
+=======
 branch second mdify
-dev: can i push origin HEAD:dev to remote
-dev: can i push dev to remote master
+>>>>>>> dev
