@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-17T06:21:55.659Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="w1CCvqJWqtovyL4DDP5U" version="14.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-17T12:53:06.210Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="ZxMyLl6jHvlHHGYTSaoj" version="14.9.7" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
-    <mxGraphModel dx="1185" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,14 +21,17 @@
         <mxCell id="a1hgXYxYx5_6g3b9Ybat-7" value="&lt;div style=&quot;line-height: 19px&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;amdgpu_device_resume&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="240" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a1hgXYxYx5_6g3b9Ybat-14" value="amdgpu_driver_load_kms" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="100" width="160" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="a1hgXYxYx5_6g3b9Ybat-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a1hgXYxYx5_6g3b9Ybat-15" target="a1hgXYxYx5_6g3b9Ybat-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a1hgXYxYx5_6g3b9Ybat-15" value="&lt;span style=&quot;text-align: left&quot;&gt;amdgpu_driver_load_kms&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="130" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1hgXYxYx5_6g3b9Ybat-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a1hgXYxYx5_6g3b9Ybat-18" target="a1hgXYxYx5_6g3b9Ybat-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1hgXYxYx5_6g3b9Ybat-18" value="&lt;span style=&quot;text-align: left&quot;&gt;drm_dev_register&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;dev-&amp;gt;driver-&amp;gt;load(dev, flags);&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
